@@ -55,11 +55,12 @@ SELECT Country,
 FROM online_retail
 GROUP BY Country;
 
--- Query the created view
+-- Query the created view-Selecting top 5 countries by revenue
 SELECT * FROM CountryRevenue ORDER BY Revenue DESC;
 
 
 
--- Create indexes to optimize queries
+-- Create indexes to optimize queries-Index on CustomerID
 CREATE INDEX idx_customer ON online_retail(CustomerID);
+-- Create indexes to optimize queries-Index on InvoiceNo
 CREATE INDEX idx_invoice ON online_retail(InvoiceNo);
