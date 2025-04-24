@@ -13,10 +13,10 @@ CREATE TABLE online_retail_fixed (
 
 -- Copy data from original table
 INSERT INTO online_retail_fixed
-SELECT * FROM online_retail;
+SELECT * FROM online_retail_cleaned;
 
 -- Drop original table
-DROP TABLE online_retail;
+DROP TABLE online_retail_cleaned;
 
 -- Rename the fixed table to original name
 ALTER TABLE online_retail_fixed RENAME TO online_retail;
@@ -57,6 +57,8 @@ GROUP BY Country;
 
 -- Query the created view
 SELECT * FROM CountryRevenue ORDER BY Revenue DESC;
+
+
 
 -- Create indexes to optimize queries
 CREATE INDEX idx_customer ON online_retail(CustomerID);
