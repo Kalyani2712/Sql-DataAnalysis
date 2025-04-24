@@ -70,7 +70,7 @@ This dataset was obtained from [Kaggle - Online Retail Data Set](https://www.kag
 ## 📷 Screenshots
 
 ### 🔟 Top 10 Bestselling Products
-![Top10Bestsellers](OutputScreenshots/Top 10 bestselling products.png)
+![Top10Bestsellers](OutputScreenshots/Top10bestsellingproducts.png)
 
 ### 📅 Monthly Revenue Calculation
 ![MonthlyRevenue](OutputScreenshots/Monthlyrevenue.png)
