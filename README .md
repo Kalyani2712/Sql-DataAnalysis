@@ -73,19 +73,19 @@ This dataset was obtained from [Kaggle - Online Retail Data Set](https://www.kag
 ![Top10Bestsellers](OutputScreenshots/Top 10 bestselling products.png)
 
 ### 📅 Monthly Revenue Calculation
-![MonthlyRevenue](OutputScreenshots/Monthly revenue.png)
+![MonthlyRevenue](OutputScreenshots/Monthlyrevenue.png)
 
 ### 🌍 Country-wise Revenue
-![CountryRevenue](OutputScreenshots/Create view for country-wise revenue.png)
+![CountryRevenue](OutputScreenshots/Createviewforcountry-wiserevenue.png)
 
 ### 🎯 Top-Selling Item in December 2010 (Using Subquery)
-![DecemberTopSeller](OutputScreenshots/Top-selling item in December 2010.png)
+![DecemberTopSeller](OutputScreenshots/Top-sellingiteminDecember2010.png)
 
 ### 🧾 Summary View (Using SQL `VIEW`)
-![ViewOutput](OutputScreenshots/Query the created view-Selecting top 5 countries by revenue.png)
+![ViewOutput](OutputScreenshots/Querythecreatedview-Selectingtop5countriesbyrevenue.png)
 
 ### ⚡ Performance Optimization with Indexes
-![IndexesPerformance](OutputScreenshots/Create indexes to optimize queries-Index on InvoiceNo.png)
+![Indexes Performance](OutputScreenshots/Createindexestooptimizequeries-IndexonInvoiceNo.png)
 
 ## 🛠️ Schema In DataBase -DbBrowser View
 ![DbBrowser View](OutputScreenshots/SchemaInDatabase.png)
