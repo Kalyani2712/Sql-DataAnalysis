@@ -60,7 +60,7 @@ This dataset was obtained from [Kaggle - Online Retail Data Set](https://www.kag
 ## 📌 How to Use
 
 1. Clone this repository.
-2. Open `retail_analysis.sqlite` or create a new database in DB Browser.
+2. Open `retail_analysis.db` or create a new database in DB Browser.
 3. Import `online_retail_cleaned.csv` if starting fresh.
 4. Open and execute `task3_queries.sql` to run all analysis queries.
 5. Review the results and optionally take screenshots for documentation.
@@ -70,7 +70,7 @@ This dataset was obtained from [Kaggle - Online Retail Data Set](https://www.kag
 ## 📷 Screenshots
 
 ### 🔟 Top 10 Bestselling Products
-![Top10Bestsellers](OutputScreenshots/Top 10 bestselling products.png)
+![Top10Bestsellers](OutputScreenshots/Top10bestsellingproducts.png)
 
 ### 📅 Monthly Revenue Calculation
 ![MonthlyRevenue](OutputScreenshots/Monthlyrevenue.png)
